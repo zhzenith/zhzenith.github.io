@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://zhzenith.github.io/pt-br/sitemap.xml
