@@ -1,5 +1,5 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm an associate professor for offshore renewable energy at Research Institute for Applied Mechanics(RIAM), Kyushu University. My research of interests are motion control, mathematical optermization, floating offshore wind/wave energy conversion systems, and multi-body dynamics. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My PhD was at the department of electrical engineering and information systems, The University of Tokyo where I worked on high-precision motion control. Prior to this I studied control theory and convex optimization at Kyoto University and physics at Shanghai University of Electric Power.  
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I love running, playing badminton and basketball. I also prefer to DIY at home and programming. 

@@ -2,7 +2,7 @@
 layout: page
 title: projects.titles.project6
 description: projects.descriptions.project6
-img:
+img: assets/img/floatingOverheadPT1.png
 importance: 4
 category: fun
 ---

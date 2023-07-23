@@ -2,100 +2,154 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Hongzhong Zhu
     - name: Languages
-      value: English, German
+      value: Chinese, English, Japanese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Electrical Engineering
+      institution: The University of Tokyo, Tokyo, Japan
+      year: 2011 - 2014
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Nonlinear friction compensation for high-precision motion system.
+        - Quantization noise suppression for servo-performance enhancement.
+        - Convex optimization.
+        - title: Industry-Academia Collaboration.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - DMG MORI: Development of next generation of ball-screw stage.
+            - Nikon: High-precision control of linear stage.
+    - title: Master in Informatics
+      institution: Kyoto University, Kyoto, Japan
+      year: 2009 - 2011
       description:
-        - Description 1.
-        - Description 2.
+        - Quantized output reconstruction of linear system for feedback control.
+        - Convex optimization.
+    - title: Bachelor in Energy and Mechanical Engineering
+      institution: Shanghai Unviersity of Electric Power, Shanghai, PRC
+      year: 1999 - 2003
+      description:
+        - Two-phase flow in bending pipe.
+        - Energy conversion in boiler and steam turbine.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Associate Professor of Offshore Renewable Energy 
+      institution: Research Institute for Applied Mechanics, Kyushu University
+      year: 2023 - 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Floating type hybrid wind-wave conversion system
+        - Digital twins of floating offshore wind turbine
+        - Optimal design of floating structures
+        - Multi-body dynamics
+        - Motion control 
+    - title: Senior Engineering of Floating Offshore Wind 
+      institution: OWC | ABL Group
+      year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Floater engineering design (steel, concrete) for FOWT
+        - Market study of Global floating offshore wind
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Assistant Professor of Offshore Renewable Energy
+      institution: Research Institute for Applied Mechanics, Kyushu University
+      year: 2020-2022
       description:
+        - Multi-body ship towing system
+        - Floating offshore overhead power transmission system
+        - Floating shrouded wind turbine
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research fellow of Offshore Renewable Energy
+      institution: Research Institute for Applied Mechanics, Kyushu University
+      year: 2019 - 2020
+      description:
+        - Multi-body ship towing system
+        - Floating offshore overhead power transmission system
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-now
-      description: A fork of al-folio theme with support for multiple languages.
+    - title: Assistant professor of Renewable Energy
+      institution: Transdisciplinary Research and Education Center for Green Technologies, Kyushu University
+      year: 2018 - 2019
+      description:
+        - Drivetrain damper for wind turbine
+        - Floating type hybrid wind-wave energy conversion system
+        - Floating shrouded wind turbine
+    - title: Assistant professor of Renewable Energy
+      institution: Research and Education Center for Advanced Materials, Devices, and Systems, Kyushu University
+      year: 2015 - 2018
+      description:
+        - Drivetrain damper for wind turbine
+        - Floating type hybrid wind-wave energy conversion system
+        - Floating shrouded wind turbine
 
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Research fellow of Motion Control
+      institution: Graduate School of Frontier Sciences, The University of Tokyo
+      year: 2014
+      description:
+        - Design and control of next generation ball-screw stages
+
+    - title: Research Assistant of Motion Control
+      institution: Graduate School of Engineering, The University of Tokyo
+      year: 2011 - 2014
+      description:
+        - High-precision control of linear stages and ball-screw stages
+    - title: Teaching Assistant of feedback Control
+      institution: Graduate school of Informatics, Kyoto University
+      year: 2009
+
+    - title: Engineer of Supercritical Thermal Power Plant
+      institution: Zhejiang Beilun Power Plant, China Guodian Group
+      year: 2003 - 2008
+      description:
+        - O&M of supercritical thermal power plant
+
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2018
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Best Paper Award @ 4th Asian Wave and Tidal Energy Conference (AWTEC2018), Co-author
+    - year: 2014
       items:
-        - Max Planck Medal
+        - Best Dissertation of the Department of Electrical Engineering
+        - Outstanding Self-supporting International Student (China Scholarship Council)
+        - Research Award by the Society of Automotive Engineers of Japan, Inc
+    - year: 2013
+      items:
+        - Best Session Paper @ the 39th Annual Conference of the IEEE Industrial Electronics Society (IECON2013)    
+        - Control Division Young Author's Award by SICE Control Division
+        - IEEJ Industry Applications Society Excellent Presentation Award
+    - year: 2012
+      items:
+        - Best Session Paper @ the 38th Annual Conference of the IEEE Industrial Electronics Society (IECON2012)    
+    - year: 2010
+      items:
+        - AEON scholarship    
+
+    - year: 2003
+      items:
+        - Shanghai Outstanding Graduate   
+     
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Floating Offshore Wind Turbine
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Optimal design
+        - Digital twins
+        - Aero-hydro-servo-mooring dynamics
+    - title: Floating type hybrid wind-wave energy conversion system
       items:
-        - Description 1.
-        - Description 2.
+        - Prototype design
+        - Optimal control towards floater motion reduction
+    - title: Multibody dynamics
+      items:
+        - Floating overhead power transmission system
+        - Vortex-induced vibration of submarine cables
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Basketball, badminton, etc.

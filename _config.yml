@@ -2,15 +2,15 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: laboratory on next generation technologies of offshore renewable energy # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Hongzhong
-middle_name: 
+middle_name:
 last_name: Zhu
 email: zhuhongzhong@riam.kyushu-u.ac.jp
-keywords: floater optimization, hybrid wind-wave energy conversion system, digital twin  # add your own keywords or leave empty
+keywords: floater optimization, hybrid wind-wave energy conversion system, digital twin, motion control, wind turbine control  # add your own keywords or leave empty
 
 lang: en # the main language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: logo.jpg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://zhzenith.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -29,7 +29,7 @@ highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-them
 repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
 
@@ -65,16 +65,16 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: zhzenith # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: hongzhong-zhu-93a78761 # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: GNV6PCYAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
+orcid_id: 0000-0001-9523-6056 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -113,7 +113,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_nav_title: true
+blog_nav_title: false
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -170,7 +170,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
@@ -231,7 +231,8 @@ defaults:
 # multi language settings
 default_locale_in_subfolder: false
 exclude_from_localizations: ["js", "css"]
-languages: ["en", "pt-br"]
+# languages: ["en", "pt-br"]
+languages: ["en"]
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -266,8 +267,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Zhu]
+  first_name: [Hongzhong]
 
   style: apa
   locale: en
@@ -296,7 +297,7 @@ badges: # Display different badges for your publications
   dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supplementary, month, day, issn, blog, code, poster, slides, website, highlight, pages, organisation, volume, number, primaryclass, preview, altmetric]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3  # leave blank to always show all authors
@@ -320,7 +321,7 @@ external_links:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800

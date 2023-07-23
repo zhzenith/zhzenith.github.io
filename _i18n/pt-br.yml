@@ -73,6 +73,7 @@ months:
     december: Dez
 news:
   titles:
+    news1: good morning
     news2: Um anúncio longo com detalhes
 pagination:
   newer: Recentes
