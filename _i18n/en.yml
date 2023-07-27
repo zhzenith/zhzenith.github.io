@@ -72,7 +72,7 @@ months:
     december: Dec
 news:
   titles:
-    news1: to be announced
+    news1: start this website.
     # news2: A long announcement with details
 pagination:
   newer: Newer
