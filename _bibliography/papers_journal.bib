@@ -4,6 +4,21 @@
 @article{zhu2011reconstruction,
   title={Reconstruction of Plant Output from Quantized Measurement—A Moving Horizon Polynomial Fitting Approach},
   author={Zhu, Hongzhong and Sugie, Toshiharu},
+  preview={QZreconstruction.png},
+  show_bib={true},
+  highlight={Spotlight},
+  selected={false},
+  website={https://doi.org/10.3182/20110828-6-IT-1002.01855},
+  abstract={This paper presents a new approach to reconstruct the plant output of linear time-invariant
+systems in the case where the available output measurement is quantized. By fitting the quantized
+measurement data with polynomials in a moving horizon manner, a smooth approximation of plant
+output is obtained via solving a convex optimization problem. Applying the signal to an observer, the
+plant output is reconstructed by taking account of the plant dynamics. It is guaranteed that the error
+between the true and the reconstructed output is bounded. Experimental validation is given by using
+a DC motor positioning system. It turns out that the proposed approach achieves small reconstruction
+error and accurate tracking control. In addition, the approach yields a smooth reconstruction signal so
+that the plant input is well behaved (or smooth) even if PID controller is employed for the plant subject
+to quantized output measurement.},
   journal={IFAC Proceedings Volumes},
   volume={44},
   number={1},
@@ -15,7 +30,18 @@
 @article{zhu2013velocity,
   title={Velocity estimation of motion systems based on low-resolution encoders},
   author={Zhu, Hongzhong and Sugie, Toshiharu},
+  preview={encoder.png},
+  show_bib={true},
+  highlight={Spotlight},
+  selected={false},
+  website={http://dx.doi.org/10.1115/1.4007065},
+  pdf={https://www.researchgate.net/publication/270775373_Velocity_Estimation_of_Motion_Systems_Based_on_Low-Resolution_Encoders},
   journal={Journal of Dynamic Systems, Measurement, and Control},
+  abstract={This paper proposes a new approach to estimate the velocity of mechanical system in the case where the optical incremental encoder 
+  is used as the position sensor. First, the actual angular position is reconstructed via moving horizon polynomial fitting method by taking 
+  account of quantization feature and the plant dynamics. Then, the reconstruction signal is applied to a classical observer to obtain the 
+  velocity estimation. Its robustness against the position sensor resolution and the degree of the polynomial 
+  is discussed by some numerical examples. Experiments with very low-resolution encoder in low speed range also confirm its effectiveness.},
   volume={135},
   number={1},
   pages={011006},
@@ -26,7 +52,18 @@
 @article{zhu2013proposal,
   title={Proposal of position reconstruction with polynomial fitting approach for precise motion control},
   author={Zhu, Hongzhong and Fujimoto, Hiroshi and Sugie, Toshiharu},
+  preview={HPCQZ.png},
+  show_bib={true},
+  highlight={Spotlight},
+  selected={false},
+  website={http://dx.doi.org/10.3182/20130410-3-CN-2034.00058},
+  pdf={https://www.researchgate.net/publication/269263826_Proposal_of_Position_Reconstruction_with_Polynomial_Fitting_Approach_for_Precise_Motion_Control},
   journal={IFAC Proceedings Volumes},
+  abstract={Optical encoders are extensively used for position measurements in motion controlsystems. The inherent quantization feature of encoders 
+  limits the control performance in manyapplications. This paper shows a way to reconstruct the smooth position signal from thequantized measurements. 
+  The method uses a polynomial fitting approach where the degreeof polynomial is automatically selected via a convex optimization method. In addition, 
+  theinformation of the plant is exploited by combining an observer. The effectiveness of the proposedmethod is verified by simulations and experiments 
+  using a high-precision linear stage.}, 
   volume={46},
   number={5},
   pages={231--236},
@@ -38,6 +75,7 @@
 @article{zhu2013overcoming,
   title={Overcoming current quantization effects for precise current control using dithering techniques},
   author={Zhu, Hongzhong and Fujimoto, Hiroshi},
+  preview={dithering techniques},
   journal={IEEJ Journal of Industry Applications},
   volume={2},
   number={1},
@@ -50,6 +88,21 @@
 @article{zhu2014suppression,
   title={Suppression of Current Quantization Effects for Precise Current Control of SPMSM Using Dithering Techniques and Kalman Filter},
   author={Zhu, Hongzhong and Fujimoto, Hiroshi},
+  preview={dither.png},
+  show_bib={true},
+  highlight={Spotlight},
+  selected={false},
+  website={http://dx.doi.org/10.1109/TII.2014.2307195},
+  pdf={https://www.researchgate.net/publication/262056545_Suppression_of_Current_Quantization_Effects_for_Precise_Current_Control_of_SPMSM_Using_Dithering_Techniques_and_Kalman_Filter},
+  abstract={High-precision current control is demanded for many mechatronic systems to improve the static and dynamic performances. However, 
+  current measurement error inherent in the measurement system degrade the control accuracy, since the motor currents are not guaranteed to 
+  follow the desired references. In this paper, quantization error caused by analog-to-digital converters is studied. The dithering techniques 
+  combined with Kalman filter are proposed to suppress the quantization effects. First, two dithered systems, including the subtractively dithered 
+  and nonsubtractively dithered systems, are designed to whiten the quantization error. In the design of nonsubtractively dithered system, the 
+  probability characteristic of the metering noise is utilized to minimize the measurement noise level. Then, Kalman filter is designed to estimate 
+  the real current signals from the dithered current measurements. Since the variance of the total measurement error is theoretically calculable 
+  according to the proposed dithering techniques, Kalman gain can be determined analytically. Finally, 
+  simulations and experiments are performed to verify the effectiveness of the proposed approaches using a high-precision positioning system.},
   journal={Industrial Informatics, IEEE Transactions on},
   volume={10},
   number={2},
@@ -65,7 +118,7 @@
   preview={ballScrewStage.png},
   show_bib={true},
   highlight={Spotlight},
-  selected={true},
+  selected={false},
   website={https://doi.org/10.1109/TMECH.2014.2337933},
   pdf={https://www.researchgate.net/publication/270741135_Mechanical_Deformation_Analysis_and_High-Precision_Control_for_Ball-Screw-Driven_Stages},
   journal={IEEE/ASME transactions on mechatronics},
@@ -89,7 +142,15 @@
 @article{zhu2015smooth,
   title={Smooth output reconstruction for linear systems with quantized measurements},
   author={Zhu, Hongzhong and Sugie, Toshiharu and Fujimoto, Hiroshi},
+  preview={Quantization},
+  website={http://dx.doi.org/10.1002/asjc.950},
+  pdf={https://www.researchgate.net/publication/264387998_Smooth_Output_Reconstruction_for_Linear_Systems_with_Quantized_Measurements_Output_Reconstruction_for_Quantized_Linear_Systems},
   journal={Asian Journal of Control},
+  abstract={This paper presents a novel approach to reconstruct the output of linear systems in the case where the measured output is uniformly 
+  quantized. By fitting the quantized measurements with polynomials in a moving horizon manner, a smooth signal is reconstructed by solving a 
+  convex optimization problem with ℓ1-norm regularization. The quantization feature and the system models are taken into account in the optimization. 
+  A numerical example is given to show the excellent reconstruction performance of the proposed method. In addition, the proposed method is 
+  implemented in a high-precision linear stage through DSP, and its effectiveness is verified through experiments using a real positioning system.},
   volume={17},
   number={3},
   pages={1039--1049},
@@ -103,7 +164,7 @@
   preview={hybridSuspension.png},
   show_bib={true},
   highlight={Spotlight},
-  selected={true},
+  selected={false},
   website={https://doi.org/10.1115/1.4033948},
   pdf={https://www.researchgate.net/publication/304187017_Optimum_Design_of_a_Passive_Suspension_System_of_a_Semi-Submersible_for_Pitching_Reduction},
   journal={Journal of Dynamic Systems, Measurement, and Control},
@@ -126,6 +187,7 @@
 @article{zhu2016study,
   title={A study on control of wave energy converter for motion suppression of semisubmersible},
   author={Zhu, Hongzhong and Hu, Changhong},
+  preview={model predictive control},
   journal={IFAC-PapersOnLine},
   volume={49},
   number={23},
@@ -137,6 +199,7 @@
 @article{toha2017torsional,
   title={Torsional vibration reduction with augmented inverse model-based controller in wind turbine drivetrain},
   author={Toha, Siti Fauziah and Yoshida, Shigeo and Zhu, Hongzhong},
+  preview={Drivetrain Damper},
   journal={Procedia Computer Science},
   volume={105},
   pages={203--208},
@@ -174,6 +237,7 @@
 @article{zhu2020integration,
   title={Integration of a semisubmersible floating wind turbine and wave energy converters: an experimental study on motion reduction},
   author={Zhu, Hongzhong and Hu, Changhong and Sueyoshi, Makoto and Yoshida, Shigeo},
+  preview={Experiment},
   journal={Journal of Marine Science and Technology},
   volume={25},
   pages={667--674},
@@ -184,6 +248,7 @@
 @article{zhu2020disturbance,
   title={Disturbance observer-based torsional vibration damper for variable-speed wind turbines},
   author={Zhu, Hongzhong and Yoshida, Shigeo},
+  preview={Drivetrain damper},
   journal={IFAC Journal of Systems and Control},
   pages={100112},
   year={2020},
@@ -243,6 +308,7 @@
 @article{zhu2022experimental,
   title={Experimental study and attitude control of a floating type shrouded wind turbine},
   author={Zhu, Hongzhong and Sueyoshi, Makoto},
+  preview={Experiment},
   journal={Sustainable Energy Technologies and Assessments},
   volume={50},
   pages={101811},
@@ -280,6 +346,7 @@
 @article{luo2023numerical,
   title={Numerical and experimental investigation of a floating overhead power transmission system},
   author={Luo, Ruo and Liu, Yingyi and Zhu, Hongzhong and Hu, Changhong},
+  preview={Floating Overhead Power Transmission},
   journal={Ocean Engineering},
   volume={284},
   pages={115085},
