@@ -226,7 +226,7 @@ defaults:
   - scope:
       path: "assets"
     values:
-      sitemap: false
+      sitemap: true
 
 # multi language settings
 default_locale_in_subfolder: false

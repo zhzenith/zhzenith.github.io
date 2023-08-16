@@ -72,7 +72,8 @@ months:
     december: Dec
 news:
   titles:
-    news1: start this website.
+    news1: Started this website.
+    news2: Attended 1st Symposium on Hydrodynamics and Ocean Engineering @ Shanghai Jiaotong University.
     # news2: A long announcement with details
 pagination:
   newer: Newer
