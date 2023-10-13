@@ -230,7 +230,7 @@ defaults:
 
 # multi language settings
 default_locale_in_subfolder: false
-exclude_from_localizations: ["js", "css"]
+exclude_from_localizations: ["js", "images", "css"]
 # languages: ["en", "pt-br"]
 languages: ["en"]
 
